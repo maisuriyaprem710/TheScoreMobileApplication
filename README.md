@@ -18,7 +18,9 @@ BaseTest class has all scrolling, swiping and longpressing methods.It has constr
 BaseTest class has Initialization method which will directly open Home Page. Application opens everytime as new, from get start or login option page. I have made automatic code to go directly while selecting some league and some team to Home page.
 On home page first English Soccer will open. After that Table will be click. Then go back will take to Home page. 
 
-
-
+Test Scenarios:
+1)HomePageTest : First account image is tested if displayed.Then click on English Soccer is done to check if it opens Correct League.
+2)EPLPageTest: First Title of league is checked from screen. It verifies the title got from test with Title manually added in config file.Then click on Table happens to check if working.
+3)tablePageTest: First table from which league is checked. It verifies the table title got from test with table Title manually added in config file. Then back option is checked if it carries to HomePage. 
 
 Make sure that your appium server is up and running before starting the tests.
