@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="theScore Application Automation Test Suite">
+  <test thread-count="5" name="theScore Application Automation Testcases">
+    <classes>
+      <class name="com.theScore.qa.testcases.TheScoreHomePageTest"/>
+      <class name="com.theScore.qa.testcases.TheScoreEPLPageTest"/>
+      <class name="com.theScore.qa.testcases.TheScoreTablePageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [theScore Application Automation Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="theScore Application Automation Testcases(failed)">
+    <classes>
+      <class name="com.theScore.qa.testcases.TheScoreEPLPageTest">
+        <methods>
+          <include name="OpenTable"/>
+          <include name="VerifyEPLTitleTest"/>
+          <include name="OpenHomePage"/>
+        </methods>
+      </class> <!-- com.theScore.qa.testcases.TheScoreEPLPageTest -->
+      <class name="com.theScore.qa.testcases.TheScoreTablePageTest">
+        <methods>
+          <include name="VerifyTableTitletest"/>
+          <include name="OpenHomePage"/>
+          <include name="VerifyBackToHomeWorking"/>
+        </methods>
+      </class> <!-- com.theScore.qa.testcases.TheScoreTablePageTest -->
+    </classes>
+  </test> <!-- theScore Application Automation Testcases(failed) -->
+</suite> <!-- Failed suite [theScore Application Automation Test Suite] -->

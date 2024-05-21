@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-21T13:55:24 GMT-04:00" name="theScore Application Automation Test Suite" finished-at="2024-05-21T14:00:54 GMT-04:00" duration-ms="329895">
+    <groups>
+    </groups>
+    <test started-at="2024-05-21T13:55:24 GMT-04:00" name="theScore Application Automation Testcases" finished-at="2024-05-21T14:00:54 GMT-04:00" duration-ms="329895">
+      <class name="com.theScore.qa.testcases.TheScoreTablePageTest">
+        <test-method is-config="true" signature="OpenHomePage()[pri:0, instance:com.theScore.qa.testcases.TheScoreTablePageTest@55536d9e]" started-at="2024-05-21T13:58:57 GMT-04:00" name="OpenHomePage" finished-at="2024-05-21T13:59:55 GMT-04:00" duration-ms="57440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenHomePage -->
+        <test-method signature="VerifyTableTitletest()[pri:1, instance:com.theScore.qa.testcases.TheScoreTablePageTest@55536d9e]" started-at="2024-05-21T13:59:55 GMT-04:00" name="VerifyTableTitletest" finished-at="2024-05-21T13:59:57 GMT-04:00" duration-ms="1996" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTableTitletest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.theScore.qa.testcases.TheScoreTablePageTest@55536d9e]" started-at="2024-05-21T13:59:57 GMT-04:00" name="TearDown" finished-at="2024-05-21T13:59:57 GMT-04:00" duration-ms="478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="OpenHomePage()[pri:0, instance:com.theScore.qa.testcases.TheScoreTablePageTest@55536d9e]" started-at="2024-05-21T13:59:57 GMT-04:00" name="OpenHomePage" finished-at="2024-05-21T14:00:53 GMT-04:00" duration-ms="55647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenHomePage -->
+        <test-method signature="VerifyBackToHomeWorking()[pri:2, instance:com.theScore.qa.testcases.TheScoreTablePageTest@55536d9e]" started-at="2024-05-21T14:00:53 GMT-04:00" name="VerifyBackToHomeWorking" finished-at="2024-05-21T14:00:53 GMT-04:00" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyBackToHomeWorking -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.theScore.qa.testcases.TheScoreTablePageTest@55536d9e]" started-at="2024-05-21T14:00:53 GMT-04:00" name="TearDown" finished-at="2024-05-21T14:00:54 GMT-04:00" duration-ms="508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.theScore.qa.testcases.TheScoreTablePageTest -->
+      <class name="com.theScore.qa.testcases.TheScoreHomePageTest">
+        <test-method is-config="true" signature="OpenHomePage()[pri:0, instance:com.theScore.qa.testcases.TheScoreHomePageTest@3e6ef8ad]" started-at="2024-05-21T13:55:24 GMT-04:00" name="OpenHomePage" finished-at="2024-05-21T13:56:16 GMT-04:00" duration-ms="52430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenHomePage -->
+        <test-method signature="AccountImgTest()[pri:1, instance:com.theScore.qa.testcases.TheScoreHomePageTest@3e6ef8ad]" started-at="2024-05-21T13:56:16 GMT-04:00" name="AccountImgTest" finished-at="2024-05-21T13:56:17 GMT-04:00" duration-ms="1185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccountImgTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.theScore.qa.testcases.TheScoreHomePageTest@3e6ef8ad]" started-at="2024-05-21T13:56:17 GMT-04:00" name="TearDown" finished-at="2024-05-21T13:56:18 GMT-04:00" duration-ms="580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="OpenHomePage()[pri:0, instance:com.theScore.qa.testcases.TheScoreHomePageTest@3e6ef8ad]" started-at="2024-05-21T13:56:18 GMT-04:00" name="OpenHomePage" finished-at="2024-05-21T13:57:07 GMT-04:00" duration-ms="49006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenHomePage -->
+        <test-method signature="OpenLeague()[pri:2, instance:com.theScore.qa.testcases.TheScoreHomePageTest@3e6ef8ad]" started-at="2024-05-21T13:57:07 GMT-04:00" name="OpenLeague" finished-at="2024-05-21T13:57:08 GMT-04:00" duration-ms="1235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenLeague -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.theScore.qa.testcases.TheScoreHomePageTest@3e6ef8ad]" started-at="2024-05-21T13:57:08 GMT-04:00" name="TearDown" finished-at="2024-05-21T13:57:09 GMT-04:00" duration-ms="449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.theScore.qa.testcases.TheScoreHomePageTest -->
+      <class name="com.theScore.qa.testcases.TheScoreEPLPageTest">
+        <test-method is-config="true" signature="OpenHomePage()[pri:0, instance:com.theScore.qa.testcases.TheScoreEPLPageTest@346d61be]" started-at="2024-05-21T13:57:09 GMT-04:00" name="OpenHomePage" finished-at="2024-05-21T13:57:59 GMT-04:00" duration-ms="50683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenHomePage -->
+        <test-method signature="VerifyEPLTitleTest()[pri:1, instance:com.theScore.qa.testcases.TheScoreEPLPageTest@346d61be]" started-at="2024-05-21T13:57:59 GMT-04:00" name="VerifyEPLTitleTest" finished-at="2024-05-21T13:58:01 GMT-04:00" duration-ms="1868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEPLTitleTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.theScore.qa.testcases.TheScoreEPLPageTest@346d61be]" started-at="2024-05-21T13:58:01 GMT-04:00" name="TearDown" finished-at="2024-05-21T13:58:02 GMT-04:00" duration-ms="514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="OpenHomePage()[pri:0, instance:com.theScore.qa.testcases.TheScoreEPLPageTest@346d61be]" started-at="2024-05-21T13:58:02 GMT-04:00" name="OpenHomePage" finished-at="2024-05-21T13:58:55 GMT-04:00" duration-ms="52981" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenHomePage -->
+        <test-method signature="OpenTable()[pri:2, instance:com.theScore.qa.testcases.TheScoreEPLPageTest@346d61be]" started-at="2024-05-21T13:58:55 GMT-04:00" name="OpenTable" finished-at="2024-05-21T13:58:57 GMT-04:00" duration-ms="2066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenTable -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.theScore.qa.testcases.TheScoreEPLPageTest@346d61be]" started-at="2024-05-21T13:58:57 GMT-04:00" name="TearDown" finished-at="2024-05-21T13:58:57 GMT-04:00" duration-ms="648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.theScore.qa.testcases.TheScoreEPLPageTest -->
+    </test> <!-- theScore Application Automation Testcases -->
+  </suite> <!-- theScore Application Automation Test Suite -->
+</testng-results>
