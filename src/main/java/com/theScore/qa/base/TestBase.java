@@ -34,7 +34,7 @@ public TestBase() throws IOException {
 		prop = new Properties();
 		FileInputStream fi = new FileInputStream("C:\\QA\\SeleniumWorkSpace\\PremMaisuriya\\src\\main\\java\\com\\theScore\\qa\\config\\config.properties");
 		prop.load(fi);
-		System.out.println("file");
+		
 	}
 	
 	

@@ -145,6 +145,28 @@
           <div class="suite-theScore_Application_Automation_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">com.theScore.qa.testcases.TheScoreHomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AccountImgTest">
+                  </a> <!-- AccountImgTest -->
+                  <span class="method-name">AccountImgTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="OpenLeague">
+                  </a> <!-- OpenLeague -->
+                  <span class="method-name">OpenLeague</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-theScore_Application_Automation_Test_Suite-class-passed -->
+          <div class="suite-theScore_Application_Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">com.theScore.qa.testcases.TheScoreEPLPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -186,28 +208,6 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-theScore_Application_Automation_Test_Suite-class-passed -->
-          <div class="suite-theScore_Application_Automation_Test_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.theScore.qa.testcases.TheScoreHomePageTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="AccountImgTest">
-                  </a> <!-- AccountImgTest -->
-                  <span class="method-name">AccountImgTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="OpenLeague">
-                  </a> <!-- OpenLeague -->
-                  <span class="method-name">OpenLeague</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-theScore_Application_Automation_Test_Suite-class-passed -->
         </div> <!-- panel theScore_Application_Automation_Test_Suite -->
         <div panel-name="test-xml-theScore_Application_Automation_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -218,6 +218,9 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;theScore Application Automation Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.theScore.qa.ExtentReportListener.ExtentReportListener&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;theScore Application Automation Testcases&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.theScore.qa.testcases.TheScoreHomePageTest&quot;/&gt;
@@ -266,32 +269,32 @@ data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'OpenTable')
 data.setCell(0, 2, 'com.theScore.qa.testcases.TheScoreEPLPageTest')
-data.setCell(0, 3, 2066);
+data.setCell(0, 3, 5976);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'VerifyTableTitletest')
-data.setCell(1, 2, 'com.theScore.qa.testcases.TheScoreTablePageTest')
-data.setCell(1, 3, 1996);
+data.setCell(1, 1, 'VerifyEPLTitleTest')
+data.setCell(1, 2, 'com.theScore.qa.testcases.TheScoreEPLPageTest')
+data.setCell(1, 3, 3509);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'VerifyEPLTitleTest')
-data.setCell(2, 2, 'com.theScore.qa.testcases.TheScoreEPLPageTest')
-data.setCell(2, 3, 1868);
+data.setCell(2, 1, 'VerifyTableTitletest')
+data.setCell(2, 2, 'com.theScore.qa.testcases.TheScoreTablePageTest')
+data.setCell(2, 3, 1467);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'OpenLeague')
 data.setCell(3, 2, 'com.theScore.qa.testcases.TheScoreHomePageTest')
-data.setCell(3, 3, 1235);
+data.setCell(3, 3, 1337);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'AccountImgTest')
 data.setCell(4, 2, 'com.theScore.qa.testcases.TheScoreHomePageTest')
-data.setCell(4, 3, 1185);
+data.setCell(4, 3, 1148);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'VerifyBackToHomeWorking')
 data.setCell(5, 2, 'com.theScore.qa.testcases.TheScoreTablePageTest')
-data.setCell(5, 3, 110);
+data.setCell(5, 3, 101);
 window.suiteTableData['theScore_Application_Automation_Test_Suite']= { tableData: data, tableDiv: 'times-div-theScore_Application_Automation_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 8 seconds</span>
+              <span class="suite-total-time">Total running time: 13 seconds</span>
               <div id="times-div-theScore_Application_Automation_Test_Suite">
               </div> <!-- times-div-theScore_Application_Automation_Test_Suite -->
             </div> <!-- times-div -->
@@ -324,77 +327,77 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">AccountImgTest</span>
-                <span class="method-start">52431 ms</span>
+                <span class="method-start">59745 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">53620 ms</span>
+                <span class="method-start">60896 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">OpenHomePage</span>
-                <span class="method-start">54201 ms</span>
+                <span class="method-start">61488 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">OpenLeague</span>
-                <span class="method-start">103207 ms</span>
+                <span class="method-start">111354 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">104445 ms</span>
+                <span class="method-start">112694 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.theScore.qa.testcases.TheScoreEPLPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">OpenHomePage</span>
-                <span class="method-start">104898 ms</span>
+                <span class="method-start">113239 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">VerifyEPLTitleTest</span>
-                <span class="method-start">155581 ms</span>
+                <span class="method-start">164734 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">157454 ms</span>
+                <span class="method-start">168246 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">OpenHomePage</span>
-                <span class="method-start">157970 ms</span>
+                <span class="method-start">168801 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">OpenTable</span>
-                <span class="method-start">210951 ms</span>
+                <span class="method-start">222676 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">213018 ms</span>
+                <span class="method-start">228653 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.theScore.qa.testcases.TheScoreTablePageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">OpenHomePage</span>
-                <span class="method-start">213669 ms</span>
+                <span class="method-start">229183 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">VerifyTableTitletest</span>
-                <span class="method-start">271110 ms</span>
+                <span class="method-start">286974 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">273110 ms</span>
+                <span class="method-start">288449 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">OpenHomePage</span>
-                <span class="method-start">273589 ms</span>
+                <span class="method-start">288940 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">VerifyBackToHomeWorking</span>
-                <span class="method-start">329236 ms</span>
+                <span class="method-start">344265 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">329351 ms</span>
+                <span class="method-start">344369 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
