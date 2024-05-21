@@ -10,7 +10,7 @@ Modify the data in config.properties file for passing the specification of your 
 TheScore apk file is under Apps folder.
 Start Appium2.0 from command line and then start Appium-Inspector.
 Run the testng.xml file. You can even run as mvn test which will trigger the testng.xml
-
+Each time after running the test, Extent Report will be generated. Refresh Project, go to test-output>Extent.html.This html file can be opened on any browser using its path.
 
 How the framework works?
 I have put all base,page,config and listener files in src/main/java. All tests are in src/test/java. 
