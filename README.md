@@ -16,7 +16,7 @@ How the framework works?
 I have put all base,page,config and listener files in src/main/java. All tests are in src/test/java. 
 BaseTest class has all scrolling, swiping and longpressing methods.It has constructor which load and fetch data from properties file in config.
 BaseTest class has Initialization method which will directly open Home Page. Application opens everytime as new, from get start or login option page. I have made automatic code to go directly while selecting some league and some team to Home page.
-
+On home page first English Soccer will open. After that Table will be click. Then go back will take to Home page. 
 
 
 
